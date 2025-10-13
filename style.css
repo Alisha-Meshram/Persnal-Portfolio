@@ -1,0 +1,710 @@
+#header {
+  background: linear-gradient(
+    20deg,
+    hsl(130deg, 8%, 14%) 40%,
+    hsl(0deg, 0%, 13%) 100%
+  );
+  color: aliceblue;
+  padding: 2rem;
+}
+#header .navbar .navbar-nav a {
+  color: #839585;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0 1.2rem;
+  transition: 0.5s ease-in-out;
+}
+#header .navbar .navbar-nav a:hover {
+  color: aliceblue;
+}
+
+#header .navbar .nav-btn .btn {
+  background-color: #ea8f10;
+  color: #212722;
+  padding: 1.3rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+#header .navbar .nav-btn .btn:hover {
+  background-color: #e9ad59;
+}
+#header .hero-section {
+  padding: 7rem 1rem;
+}
+#header .hero-section h3 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #fef6e6;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+#header .hero-section h1 {
+  font-size: 6rem;
+
+  color: #fef6e6;
+  font-family: "DM Serif Display", serif;
+}
+
+#header .about {
+  padding: 5rem 1.3rem;
+}
+
+#header .about .heading h6 {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #ea8f10;
+}
+#header .about h2 {
+  line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 4.5rem;
+  color: #fef6e6;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 2.5rem;
+}
+
+#header .about .about-btn button {
+  color: #fef6e6;
+  border: 2px solid #fef6e6;
+  padding: 1.4rem 3.3rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  transition: 0.3s ease-out;
+}
+#header .about .about-btn button:hover {
+  background-color: #fef6e6;
+  color: #212722;
+}
+
+#header .about .icon {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+#header .about .info {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  color: #fef6e6;
+  font-family: "Roboto Flex", sans-serif;
+  padding: 0 2rem 0 4rem;
+}
+
+/* expertise */
+
+#expertise .experties-content {
+  margin: 10rem 4rem;
+}
+
+#expertise .experties-content .heading h6 {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #ea8f10;
+}
+
+#expertise .experties-content h2 {
+  line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 4.5rem;
+  color: #212722;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 2.5rem;
+}
+
+#expertise .experties-content p {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  color: #212722;
+  font-family: "Roboto Flex", sans-serif;
+  margin-bottom: 3rem;
+}
+
+#expertise .experties-content .expertise-btn button {
+  color: #212722;
+  border: 2px solid #212722;
+  padding: 1.4rem 3.3rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  transition: 0.3s ease-out;
+}
+#expertise .experties-content .expertise-btn button:hover {
+  background-color: #212722;
+  color: #fef6e6;
+}
+
+#expertise .experties-content .expertise-info .heading h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #212722;
+  font-family: "DM Serif Display", serif;
+  margin-bottom: 1.8rem;
+}
+
+#expertise .experties-content .expertise-info .heading span {
+  color: #e9ad59;
+  font-size: 1.5rem;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+#expertise .experties-content .expertise-info p {
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+}
+
+/* client */
+
+#client {
+  background-color: #fef6e6;
+}
+
+#client .client-content {
+  padding: 10rem 4rem;
+}
+
+#client .client-content .heading h6 {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #ea8f10;
+}
+
+#client .client-content h2 {
+  line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 4.5rem;
+  color: #212722;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 2.5rem;
+}
+
+#client .client-content .client-info .para p {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  color: #212722;
+  font-family: "Roboto Flex", sans-serif;
+  padding-bottom: 3rem;
+}
+
+#client .client-content .img-content .img-box {
+  border: 1px solid gray;
+  padding: 2rem;
+  transition: all 0.5s ease-in;
+  margin-left: 0;
+  margin-right: 0;
+}
+#client .client-content .img-content .img-box:hover {
+  background-color: #d8c399;
+}
+
+/* testimonial */
+
+/* consultation */
+
+#consultation {
+  background-color: #212722;
+}
+
+#consultation .consultation-content {
+  padding: 10rem 4rem;
+  color: #fef6e6;
+  text-align: center;
+}
+
+#consultation .consultation-content .heading h1 {
+  line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 4.5rem;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 2rem;
+}
+
+#consultation .consultation-content .para p {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-family: "Roboto Flex", sans-serif;
+  padding-bottom: 3rem;
+}
+
+#consultation .consultation-content .btn {
+  background-color: #ea8f10;
+  color: #212722;
+  padding: 1.3rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5px;
+
+  transition: all 0.5s ease-out;
+}
+#consultation .consultation-content .btn:hover {
+  background-color: #e9ad59;
+}
+
+/* articles */
+
+#articles {
+  background-color: #181818;
+}
+
+#articles .article-content {
+  padding: 10rem 4rem;
+}
+
+#articles .article-content .heading h6 {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-family: "Roboto Flex", sans-serif;
+
+  color: #ea8f10;
+  text-align: center;
+}
+#articles .article-content .heading h1 {
+  line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 4.5rem;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 4rem;
+  color: #fef6e6;
+  text-align: center;
+}
+#articles .article-content .article-info h6 {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  font-family: "Roboto Flex", sans-serif;
+
+  color: #ea8f10;
+}
+#articles .article-content .article-info h3 {
+  line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 2.5rem;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 1.5rem;
+  color: #fef6e6;
+}
+#articles .article-content .article-info p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-family: "Roboto Flex", sans-serif;
+  padding-bottom: 3rem;
+  color: #839585;
+}
+#articles .article-content .article-info p span {
+  color: #ea8f10;
+}
+
+/* footer */
+
+footer {
+  background-color: #181818;
+}
+
+.footer .footer-content {
+  padding: 0  4rem 5rem 4rem;
+}
+.footer .footer-content h3 {
+  line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 2.5rem;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 1.5rem;
+  color: #fef6e6;
+}
+.footer .footer-content p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-family: "Roboto Flex", sans-serif;
+  padding-bottom: 2rem;
+  color: #839585;
+}
+.footer .footer-content ul li {
+  list-style: none;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-family: "Roboto Flex", sans-serif;
+}
+.footer .footer-content ul li a {
+  color: #839585;
+  text-decoration: none;
+}
+
+.footer .footer-content .footer-btn .btn {
+  
+   
+    padding: 1.3rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+  color: #fef6e6;
+  }
+
+  .footer .footer-content .footer-btn  .email-address{
+background-color: #212722;
+margin-bottom: 1rem;
+width: 100%;
+  }
+
+  .footer .footer-content .footer-btn .subscribe{
+    background-color: #ea8f10;
+width: 100%;
+  }
+
+  .footer .footer-content .footer-bottom{
+padding-top: 2rem;
+}
+
+
+.footer .footer-content .footer-bottom .icon {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-top: 2rem;
+    color: #839585;
+    cursor: pointer;
+  
+  }
+  .footer .footer-content .footer-bottom .icon i{
+    transition:all 0.5s ease-in-out;
+  }
+  .footer .footer-content .footer-bottom .icon i:hover{
+    color: #fef6e6;
+  }
+  .footer .footer-content .footer-bottom .footer-para p{
+  padding-bottom: 0;
+    font-size: 1.2rem;
+    font-family: "Roboto Flex", sans-serif;
+    margin-top: 2rem;
+    color: #839585;
+  }
+  .footer .footer-content .footer-bottom .footer-para p span{
+    color: #fef6e6;
+  }
+
+  /* About Page */
+
+  #header .hero-section  .about-header{
+    text-align: center;
+  }
+
+  #header .hero-section  .about-header h6{
+    font-size: 1.5rem;
+    color: #ea8f10;
+    font-family: "Roboto Flex", sans-serif;
+  }
+  .about-header h1{
+font-size: 5rem;
+  }
+
+ #about-info .about-info-content{
+  margin: 6rem 10rem;
+  
+  }
+
+  
+  #about-info .about-info-content .heading h2{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.012em;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  #about-info .about-info-content .info p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #181818;
+    font-family: "Roboto Flex", sans-serif;
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  #about-info .about-info-content .info h5{
+    line-height: 1rem;
+    font-size: 1.5rem;
+    color: #181818;
+    font-family: "Roboto Flex", sans-serif;
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  /* contact-page */
+
+  #contact-info .contact-info-content{
+margin: 10rem 5rem;
+  }
+
+  #contact-info .contact-info-content .heading h1{
+    line-height: 1.0606;
+  letter-spacing: -0.012em;
+  font-size: 4.5rem;
+  font-family: "DM Serif Display", serif;
+  padding-bottom: 4rem;
+ color: #181818;
+  
+  }
+
+  #contact-info .contact-info-content .para p{
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    color: #181818;
+    font-family: "Roboto Flex", sans-serif;
+    padding-bottom: 3rem;
+  }
+
+  #contact-img .contact-img{
+    margin: 7rem 5rem;
+  }
+
+  
+  #persnal-info .persnal-info-content{
+    margin: 5rem 8rem 10rem 8rem;
+  }
+
+  #persnal-info .persnal-info-content .heading h2{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.012em;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 2rem;
+  }
+
+  #persnal-info .persnal-info-content .para p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #181818;
+    font-family: "Roboto Flex", sans-serif;
+    padding-bottom: 3rem;
+  }
+
+  #persnal-info .persnal-info-content .persnal-info-btn{
+    padding: 1.1rem 2.3rem;
+ 
+    border-radius: 5px;
+  color: #212722;
+  background-color: #ea8f10;
+width: 100%;
+text-align: center;
+font-family: "Roboto Flex", sans-serif;
+transition: 0.5s ease-out;
+  }
+
+  #persnal-info .persnal-info-content .persnal-info-btn button{
+    font-size: 1.1rem;
+ font-weight: 500;
+
+  }
+
+  #persnal-info .persnal-info-content .persnal-info-btn:hover{
+    background-color: #e9ad59;
+  }
+
+  #persnal-info .persnal-info-content .social-heading h5{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #181818;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 4rem;
+  }
+  
+
+  #persnal-info .persnal-info-content .social-heading .icon {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-top: 1rem;
+    color:  #181818;
+    cursor: pointer;
+  
+  }
+   #persnal-info .persnal-info-content .social-heading .icon i{
+    transition:all 0.5s ease-in-out;
+  }
+   #persnal-info .persnal-info-content .social-heading .icon i:hover{
+    color: #839585;
+  }
+
+
+  #persnal-info .persnal-info-content   .email-heading h5{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #181818;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+  }
+
+  #persnal-info .persnal-info-content  .email-heading .email a{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 1rem;
+    color:  #181818;
+    cursor: pointer;
+    transition:all 0.3s ease-out;
+  }
+  #persnal-info .persnal-info-content  .email-heading .email a:hover{
+    color: #ea8f10;
+  }
+
+  #persnal-info .persnal-info-content   .phone-heading h5{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #181818;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+  }
+  #persnal-info .persnal-info-content   .phone-heading .phone a{
+    font-size: 1.1rem;
+    text-align: left;
+    margin-top: 1rem;
+    color:  #181818;
+    cursor: pointer;
+    transition:all 0.3s ease-out;
+  }  #persnal-info .persnal-info-content   .phone-heading .phone a:hover{
+    color: #ea8f10;
+  }
+
+  /* skill page */
+
+  #skill .skill-content{
+margin:10rem 5rem;
+  }
+
+  #skill .skill-content .skill-info .short-heading h6{
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-family: "Roboto Flex", sans-serif;
+    color: #ea8f10;
+  }
+
+  #skill .skill-content .skill-info .main-heading h2{
+    line-height: 1.0606;
+    letter-spacing: -0.012em;
+    font-size: 2.5rem;
+    font-family: "DM Serif Display", serif;
+    padding-bottom: 1.5rem;
+   color: #181818;
+  }
+
+  #skill .skill-content .skill-info .info p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: "Roboto Flex", sans-serif;
+    padding-bottom: 3rem;
+    color: #212722;
+  }
+
+  /* service-page */
+
+  #services-info .services-info-content{
+    margin:7rem 5rem 5rem 5rem;
+      }
+
+
+      #services-info .services-info-content .heading h2 {
+        line-height: 1.0606;
+        letter-spacing: -0.012em;
+        font-size: 4.5rem;
+        color: #212722;
+        font-family: "DM Serif Display", serif;
+        padding-bottom: 2.5rem;
+      }
+      #services-info .services-info-content .para p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+        color: #212722;
+        font-family: "Roboto Flex", sans-serif;
+        padding-bottom: 3rem;
+      }
+
+
+      #service-box .service-box-content {
+        margin:5rem 5rem 10rem 5rem;
+      }
+
+      #service-box  .service-box-content .service-box-info{
+        margin-bottom: 3rem;
+      }
+
+
+      #service-box  .service-box-content .service-box-info  .heading h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #181818;
+        font-family: "DM Serif Display", serif;
+        margin-bottom: 1.8rem;
+      }
+      
+      #service-box  .service-box-content .service-box-info  .heading span {
+        color: #e9ad59;
+        font-size: 1.5rem;
+        font-family: "Roboto Flex", sans-serif;
+      }
+      
+      #service-box  .service-box-content .service-box-info .para p {
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+        color: #181818;
+      }
+
+      #service-box  .service-box-content .service-box-info .list li{
+        line-height: 1rem;
+        font-size: 1.3rem;
+        color: #181818;
+      margin-top: 2rem;
+      
+      }
+
+      @media screen and (max-width: 1150px) {
+        #header .hero-section h1 {
+          font-size: 3.5rem;
+          
+      }
+      }
+      @media screen and (max-width: 850px) {
+        #header .hero-section h1 {
+          font-size: 3rem;
+          
+      }
+      }
+
+      @media screen and (max-width: 1200px) {
+        #expertise .experties-content .expertise-btn button  {
+          width: 100%;
+          
+      }
+      #header .about .about-btn button {
+        width: 100%;
+      
+       
+      }
+      #header .about .icon{
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      }
+
+      @media screen and (max-width: 990px) {
+        #header .navbar .navbar-nav a {
+         
+          font-size: 1.5rem;
+       padding: 1rem 0;
+          
+      }
+      #header .navbar .nav-btn .btn {
+        width: 100%;
+      }
+      }
